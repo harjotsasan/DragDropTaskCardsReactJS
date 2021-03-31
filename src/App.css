@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.body{
+  margin: 1rem auto;
+  width: 90vw;
+  min-height: 90vh; max-height: auto;
+  border: 0.1rem solid blueviolet;
+  border-radius: 1.5rem;
+  background-color: indigo;
+}
+header{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: beige;
+  border: none;
+  text-shadow: 0.3rem 0.3rem 0.3rem black;
+}
+form{
+  margin: 0.5rem auto;
+  width: fit-content;
+}
+input{
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  margin-right: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+}
+input:hover{
+  background-color: lavenderblush;
+  color: darkslateblue;
+}
+button{
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: blueviolet;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: beige;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+}
+button:hover{
+  color: beige;
+  background-color: blueviolet;
+}
+
+.dndDivHeading{
+  display: flex;
+  margin: 2.5rem 0rem 0rem 0rem;
+}
+
+.p{
+  width: fit-content;
+  margin: auto;
+  padding: 0 0.1rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  font-size: 1.15rem;
+  background-color: lightcyan;
+}
+
+.container{
+  display: flex;
+}
+.dndDiv{
+  width: 100%;
+  min-height: 50vh;
+  max-height: auto;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  background-color: rgba(176, 196, 222, 0.5);
+}
+.dndItems{
+  width: fit-content;
+  margin: 0.9rem auto;
+  padding: 0.1rem 0.5rem;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 1);
+  border-radius: 0.3rem;
+  color: black;
+}
